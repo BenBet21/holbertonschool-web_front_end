@@ -576,7 +576,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .nav .nav-link::before {
   content: "";
-  display: absolute;
+  position: absolute;
   top: 0;
   left: 0;
   background-color: var(--color-white);
