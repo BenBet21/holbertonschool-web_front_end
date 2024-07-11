@@ -590,7 +590,7 @@ h1, h2, h3, h4, h5, h6 {
   background-color: var(--color-white);
   width: 0;
   height: 0.2rem;
-  transition: var(–-transition-duration) var(--transition-cubic-bezier);
+  transition: var(--transition-duration) var(--transition-cubic-bezier);
 }
 
 .nav .nav-item:hover .nav-link::before {
@@ -744,7 +744,7 @@ ul.row {
   z-index: -1;
 }
 
-.card-work:hover .card-image{
+.card-work:hover .card-image {
   transform: scale(1.2);
   transition: var(–-transition-duration) var(--transition-cubic-bezier);
 } 
