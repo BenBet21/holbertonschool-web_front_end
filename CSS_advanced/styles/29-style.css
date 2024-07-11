@@ -574,10 +574,6 @@ h1, h2, h3, h4, h5, h6 {
   padding: 0.5rem 1rem;
 }
 
-.nav .nav-link:hover {
-  color: var(--nav-item-link-hover);
-}
-
 .nav .nav-link::before {
   content: "";
   display: absolute;
@@ -591,6 +587,10 @@ h1, h2, h3, h4, h5, h6 {
 .nav .nav-item:hover .nav-link::before {
   background-color: var(--color-primary);
   width: 100%;
+}
+
+.nav .nav-link:hover {
+  color: var(--nav-item-link-hover);
 }
 
 ul.row {
